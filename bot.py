@@ -8,6 +8,7 @@ bot = telebot.TeleBot(config.token, parse_mode=None)
 
 home = ReplyKeyboardMarkup(resize_keyboard=True)
 home.add("⬅️back to home")
+
 def markup():
     markup = ReplyKeyboardMarkup()
     markup.resize_keyboard = True
